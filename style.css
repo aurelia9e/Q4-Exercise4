@@ -1,0 +1,31 @@
+body {
+	background-color: green;
+	font-family: monospace;
+}
+
+.container {
+	background-color: black;
+	color: greenyellow;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.coloring {
+	background-color: black;
+	color: yellowgreen;
+	border-color: yellowgreen;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-radius: 20px;
+}
+
+.form {
+	margin-top: 5.5px;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	padding-top: 5.5px;
+ 	padding-bottom: 5.5px;
+}
