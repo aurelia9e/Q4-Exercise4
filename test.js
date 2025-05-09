@@ -1,10 +1,10 @@
 
 
 function displayLevelInfo() {
-	var Levelup = document.getElementbyId('levelInput').value;
+	var levelEntry = document.getElementbyId('levelInput').value;
 
 
-switch (Levelup) {
+switch (levelEntry) {
 
 case "1": 
 	document.getElementById('displayLevel').innerHTML=
