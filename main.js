@@ -4,17 +4,17 @@ function displayLevelInfo() {
 
 		switch (levelEntry) {
 			case "1": 
-				document.getElementById('displayLevel').innerHTML=
+				document.getElementById("displayLevel").innerHTML=
 				"Level: Easy Mode";
 				break;
 
 			case "2": 
-				document.getElementById('displayLevel').innerHTML=
+				document.getElementById("displayLevel").innerHTML=
 				"Level: Normal Mode";
 				break;
 
 			case "3": 
-				document.getElementById('displayLevel').innerHTML=
+				document.getElementById("displayLevel").innerHTML=
 				"Level: Hard Mode";
 				break;
 
