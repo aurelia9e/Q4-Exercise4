@@ -1,22 +1,22 @@
 
 
-function displayPlayerInfo() {
-	var Levelup = document.getElementbyId('playerInfo').value;
+function displayLevelInfo() {
+	var Levelup = document.getElementbyId('levelInput').value;
 
 
 switch (Levelup) {
 
-case 1: 
+case "1": 
 	document.getElementById('displayLevel').innerHTML=
 	"Level: Easy Mode";
 	break;
 
-case 2: 
+case "2": 
 	document.getElementById('displayLevel').innerHTML=
 	"Level: Normal Mode";
 	break;
 
-case 3: 
+case "3": 
 	document.getElementById('displayLevel').innerHTML=
 	"Level: Hard Mode";
 	break;
